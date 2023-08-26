@@ -18,10 +18,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Webflax\\Shop\\App\\Providers\\ShopServiceProvider\\"
+                "Webflax\\Portfolio\\App\\Providers\\PortfolioServiceProvider\\"
             ],
             "aliases": {
-                "OTP": "Webflax\\Shop\\services\\Facades\\OTP\\"
+                "Portfolio": "Webflax\\Portfolio\\services\\Facades\\Portfolio\\"
             }
         }
     },
@@ -36,12 +36,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Webflax\\Shop\\": "src"
+            "Webflax\\Portfolio\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Webflax\\Shop\\Tests\\": "tests"
+            "Webflax\\Portfolio\\Tests\\": "tests"
         }
     },
     "minimum-stability": "stable",
