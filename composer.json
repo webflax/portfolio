@@ -1,0 +1,53 @@
+{
+    "name": "webflax/shop",
+    "description": "A store library where you can publish any kind of product",
+    "homepage": "https://github.com/webflax/portfolio",
+    "type": "library",
+    "keywords": [
+        "portfolio",
+        "freelancer",
+        "project"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "webflaxco",
+            "email": "webflax.developers@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webflax\\Shop\\App\\Providers\\ShopServiceProvider\\"
+            ],
+            "aliases": {
+                "OTP": "Webflax\\Shop\\services\\Facades\\OTP\\"
+            }
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0|^8.1",
+        "illuminate/database": "^6.0|^7.0|^8.0|^9.0|^10.0",
+        "illuminate/pagination": "^6.0|^7.0|^8.0|^9.0|^10.0",
+        "cviebrock/eloquent-sluggable": "^10.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5.27"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webflax\\Shop\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Webflax\\Shop\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
