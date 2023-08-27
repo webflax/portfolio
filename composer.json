@@ -1,6 +1,6 @@
 {
-    "name": "webflax/portfolio",
-    "description": "A store library where you can publish any kind of product",
+    "name": "webflaxco/portfolio",
+    "description": "portfolio package for laravel",
     "homepage": "https://github.com/webflax/portfolio",
     "type": "library",
     "keywords": [
