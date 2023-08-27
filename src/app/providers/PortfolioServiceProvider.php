@@ -3,11 +3,12 @@ namespace Webflax\Portfolio\App\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
+use Webflax\Portfolio\App\services\PortfolioService;
 use Webflax\Shop\App\Models\ProductModel;
 use Webflax\Shop\App\Services\Cart\CartService;
 use Webflax\Shop\App\Services\Coupon\CouponService;
 
-class ShopServiceProvider extends ServiceProvider
+class PortfolioServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
@@ -15,7 +16,7 @@ class ShopServiceProvider extends ServiceProvider
     public function register(): void
     {
         $this->app->singleton('portfolio', function ($app) {
-            return new ProductModel();
+            return new PortfolioService();
         });
     }
 

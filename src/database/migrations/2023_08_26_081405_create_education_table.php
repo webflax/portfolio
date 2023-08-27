@@ -20,9 +20,6 @@ return new class extends Migration {
             $table->timestamp('start_date');
             $table->timestamp('end_date');
 
-            $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users')->cascadeOnDelete();
-
             $table->timestamps();
         });
     }

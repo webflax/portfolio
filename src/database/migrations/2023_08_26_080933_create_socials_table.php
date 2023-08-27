@@ -22,10 +22,8 @@ return new class extends Migration {
                     'youtube',
                 ]
             );
-            
+
             $table->string('username');
-            $table->unsignedBigInteger('user_id');
-            $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
         });
     }
