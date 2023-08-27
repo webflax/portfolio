@@ -1,6 +1,6 @@
 {
     "name": "webflaxco/portfolio",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "portfolio package for laravel",
     "homepage": "https://github.com/webflax/portfolio",
     "type": "library",
