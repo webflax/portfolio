@@ -1,5 +1,5 @@
 <?php
-namespace Webflax\Portfolio\App\Facades;
+namespace Webflax\Portfolio\app\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,7 +8,7 @@ class Portfolio extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'portfolio'; 
+        return 'portfolio';
     }
 }
 

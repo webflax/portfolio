@@ -1,9 +1,9 @@
 <?php
-namespace Webflax\Portfolio\App\Providers;
+namespace Webflax\Portfolio\app\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
-use Webflax\Portfolio\App\services\PortfolioService;
+use Webflax\Portfolio\app\services\PortfolioService;
 use Webflax\Shop\App\Models\ProductModel;
 use Webflax\Shop\App\Services\Cart\CartService;
 use Webflax\Shop\App\Services\Coupon\CouponService;

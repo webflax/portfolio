@@ -1,14 +1,14 @@
 <?php
-namespace Webflax\Portfolio\App\Services;
+namespace Webflax\Portfolio\app\Services;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use SoapClient;
-use Webflax\Portfolio\App\Models\Education;
-use Webflax\Portfolio\App\Models\Exprience;
-use Webflax\Portfolio\App\Models\Project;
-use Webflax\Portfolio\App\Models\Skill;
-use Webflax\Portfolio\App\Models\Social;
+use Webflax\Portfolio\app\Models\Education;
+use Webflax\Portfolio\app\Models\Exprience;
+use Webflax\Portfolio\app\Models\Project;
+use Webflax\Portfolio\app\Models\Skill;
+use Webflax\Portfolio\app\Models\Social;
 
 class PortfolioService
 {

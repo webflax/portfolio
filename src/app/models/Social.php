@@ -1,6 +1,6 @@
 <?php
 
-namespace Webflax\Portfolio\App\Models;
+namespace Webflax\Portfolio\app\Models;
 
 use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -18,5 +18,5 @@ class Social extends Model
         return $this->belongsTo(User::class);
     }
 
-    
+
 }

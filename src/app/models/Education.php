@@ -1,6 +1,6 @@
 <?php
 
-namespace Webflax\Portfolio\App\Models;
+namespace Webflax\Portfolio\app\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
