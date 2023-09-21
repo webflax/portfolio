@@ -8,7 +8,7 @@ class Portfolio extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'portfolio';
+        return 'portfolio'; 
     }
 }
 
