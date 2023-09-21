@@ -22,7 +22,7 @@ class SocialController extends Controller
      */
     public function create()
     {
-        //
+
     }
 
     /**
